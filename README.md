@@ -2,7 +2,7 @@
 
 This is a C# .NET Core MVC web app which consists of a single view - an input box and a submit button.
 The user is able to enter their User ID in the input box and click submit or hit enter in the input box.
-This action by the user sends a request to a server, which retrieves a record from a Users table in a MS SQL Server database.
+This action by the user sends a request to a server, which retrieves a record from a Users table in a SQL Server database that is running in a docker container.
 The record is returned as an object using Entity Framework. The User table has 5 fields: UserID, FirstName, LastName, Gender, and DOB (Date of Birth).
 Database objects are mapped to an entity class and then to a model class which calculates the days until their birthday.
 This information is returned in the form of a sentence letting the user know how long it will be before it is that person's birthday.
@@ -29,4 +29,4 @@ Navigate to the project directory and start the web app.
   dotnet run
 ```
 
-Open up a compatible browser and navigate to `http://localhost:5000/`.
+Open up a compatible web browser (tested on **Chrome, Firefox, and Safari**) and navigate to `http://localhost:5000/`.

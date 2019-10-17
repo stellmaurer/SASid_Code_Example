@@ -1,0 +1,28 @@
+#buttonAndSpinner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#result {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#resultText {
+    color: green;
+}
+
+body {
+    height: 100vh;
+}
+
+.flex-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}

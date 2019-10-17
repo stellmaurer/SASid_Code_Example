@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/sellmaurer/.dotnet/store/|arch|/|tfm|",
+      "/Users/sellmaurer/.nuget/packages"
+    ]
+  }
+}

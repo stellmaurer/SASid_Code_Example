@@ -1,6 +1,6 @@
 # SASid_Code_Example
 
-This is an MVC web app which consists of a single view - an input box and a submit button.
+This is a C# .NET Core MVC web app which consists of a single view - an input box and a submit button.
 The user is able to enter their User ID in the input box and click submit or hit enter in the input box.
 This action by the user sends a request to a server, which retrieves a record from a Users table in a MS SQL Server database.
 The record is returned as an object using Entity Framework. The User table has 5 fields: UserID, FirstName, LastName, Gender, and DOB (Date of Birth).

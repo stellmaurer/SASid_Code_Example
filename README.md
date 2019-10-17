@@ -7,7 +7,7 @@ The record is returned as an object using Entity Framework. The User table has 5
 Database objects are mapped to an entity class and then to a model class which calculates the days until their birthday.
 This information is returned in the form of a sentence letting the user know how long it will be before it is that person's birthday.
 
-**NOTE: The web app and web server are part of the same project in this case. Most of the time, in a real real world scenario, those should be separated.**
+**NOTE: The web app and web server are part of the same project in this case. Most of the time, in a real real world scenario, those should be separated. Additionally, if this was a real world app, I would have given more thought about what the proper access modifiers to class properties should be.**
 
 ## How to run the project
 

@@ -9,10 +9,10 @@ This information is returned in the form of a sentence letting the user know how
 
 ## How to run the project
 
-[Install Docker](https://hub.docker.com/) and make sure it is running.
-[Install .NET Core](https://dotnet.microsoft.com/download)
+[Install Docker](https://hub.docker.com/) and make sure the application is running.
+[Install .NET Core](https://dotnet.microsoft.com/download).
 
-Open a terminal. Create the MS SQL Server database, start the docker container, and confirm it is running.
+Open a terminal. Create a SQL Server database, start the docker container, and confirm it is running.
 ```
   sudo docker pull microsoft/mssql-server-linux:2017-latest
   sudo docker run -e 'ACCEPT_EULA=Y' \

@@ -29,4 +29,4 @@ Navigate to the project directory and start the web app.
   dotnet run
 ```
 
-Open up a compatible web browser (tested on **Chrome, Firefox, and Safari**) and navigate to `http://localhost:5000/`.
+Open up a compatible web browser (tested on **Chrome, Firefox, and Safari**) and navigate to [http://localhost:5000/].
